@@ -1,0 +1,42 @@
+body {
+    background-color:  mediumturquoise
+}
+input {
+    width: 90px;
+    height: 33px;
+    display: inline;
+}
+li {
+    list-style-type: none;
+}
+p {
+    display: inline;
+}
+li:nth-child(3) {
+    margin-left: auto;
+}
+ul {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    background-color:  mediumturquoise;
+}
+img.logo {
+    width: 120%;
+    height: 33px;
+}
+img.imageHome {
+    width: 170%;
+    height: 130%;
+    border-radius: 20px;
+}
+div.home-title {
+    position: absolute;
+    left: 2%;
+    bottom: 35%;
+}
+div.imageHome {
+    position: absolute;
+    bottom: -28%;
+    left: 40%;
+}
